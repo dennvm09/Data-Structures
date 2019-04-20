@@ -3,6 +3,9 @@ package bst;
 
 public abstract class DennNode<K extends Comparable, V> implements Comparable{
 
+	/** 
+	 * Nodo usuado en los arboles binarios de busqueda
+	 */
 	private K key;
 	private V value;
 	public int height;

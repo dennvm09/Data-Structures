@@ -1,6 +1,9 @@
 package list;
 public class DennNode <T>{
 
+	/** 
+	 * Nodo usado en una lista enlazada
+	 */
   private T element;
   private DennNode<T> nodeNext;
   private DennNode<T> nodePrevious;
